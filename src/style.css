@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --lightBlue: rgb(170 229 255);
+  --darkBlue: rgb(102 16 217);
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: cornflowerblue;
+}
+
+h1 {
+  text-align: center;
+  color: var(--darkBlue);
+  background-color: var(--lightBlue);
+  margin: 10px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.App-container {
+  height: 600px;
+  width: 500px;
+  background-color: cornsilk;
+  border-radius: 8px;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+  width: 480px;
+  border-radius: 10px;
+  margin: 20px 10px;
+  background-color: var(--lightBlue);
+}
+
+#inputBar {
+  padding: 0px 7px;
+  font-size: larger;
+  height: 35px;
+  width: 350px;
+  margin: 10px;
+  border-radius: 20px;
+  outline: none;
+}
+
+.list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 400px;
+  margin: 20px 10px;
+  width: 480px;
+  border-radius: 10px;
+  background-color: var(--lightBlue);
+}
+
+.listItem {
+  margin: 10px;
+  background-color: coral;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 460px;
+  border-radius: 10px;
+}
+
+.MuiSvgIcon-root {
+  margin: 10px;
+}
+
+h2 {
+  margin: 10px;
+}
+
+span {
+  margin: 10px;
+  font-size: 20px;
+}
